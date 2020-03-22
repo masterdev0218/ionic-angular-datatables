@@ -1,7 +1,7 @@
 # Ionic Angular Datatables
 
 * App to display a responsive table of data from an API, using the [Ionic 5 framework](https://ionicframework.com/docs) with Angular
-* Code from [Simon Grimm: Youtube video: Building a Responsive Data Table with Ionic Grid](https://www.youtube.com/watch?v=5xQlIYHgesg&t=5s) with some styling chhanges
+* Code from [Simon Grimm: Youtube video: Building a Responsive Data Table with Ionic Grid](https://www.youtube.com/watch?v=5xQlIYHgesg&t=5s) with some styling changes
 
 ## Table of contents
 
@@ -16,7 +16,7 @@
 
 ## General info
 
-* App gets data from a [random user details API](https://randomuser.me/) and displays it in a table that reduces the number of columns from 6 (PC screen) to 4 (mobile screen) 
+* App gets data from a [random user details API](https://randomuser.me/) and displays it in a responsive table that, upon reesizing, reduces the number of columns from 6 (PC screen) to 4 (mobile screen)
 
 ## Screenshots
 
@@ -32,7 +32,7 @@
 ## Setup
 
 * Load dependencies using `npm i`
-* To start the server on _localhost://8100_ type: 'ionic serve'
+* To start the server on _localhost://8100_ type: `ionic serve`
 
 ## Code Examples
 
@@ -53,11 +53,11 @@
   }
 
 ```
+
 ## Features
 
-*  using 
-* Sort method uses [localeCompare()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) method to return a number indicating if a reference string comes before or after or is the same as the given string in sort order.
-* `ion-select-option` used to provide drop-down rows per page options. Couldn't work out how to have a default selected value, e.g. 10, currently shows the full list
+* Sort function uses the [localeCompare()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) method to return a number indicating if a reference string comes before or after or is the same as the given string in sort order.
+* `ion-select-option` used to provide drop-down rows per page options. Couldn't work out how to have a default selected value, e.g. 10, currently defaults to the full list until a rows per page option is chosen
 
 ## Status & To-do list
 
@@ -67,6 +67,7 @@
 ## Inspiration
 
 * [Simon Grimm: Youtube video: Building a Responsive Data Table with Ionic Grid](https://www.youtube.com/watch?v=5xQlIYHgesg&t=5s).
+* [Simon Grimms great Ionic site: Devdactic](https://devdactic.com/)
 
 ## Contact
 
