@@ -1,40 +1,43 @@
-# Ionic Angular Datatables
+# :zap: Ionic Angular Datatables
 
 * App to display a responsive table of data from an API, using the [Ionic 5 framework](https://ionicframework.com/docs) with Angular
 * Code from [Simon Grimm: Youtube video: Building a Responsive Data Table with Ionic Grid](https://www.youtube.com/watch?v=5xQlIYHgesg&t=5s) with some styling changes
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Ionic Angular Datatables](#zap-ionic-angular-datatables)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
-* App gets data from a [random user details API](https://randomuser.me/) and displays it in a responsive table that, upon reesizing, reduces the number of columns from 6 (PC screen) to 4 (mobile screen)
+* App gets data from a [random user details API](https://randomuser.me/) and displays it in a responsive table that, upon resizing, reduces the number of columns from 6 (PC screen) to 4 (mobile screen)
 
-## Screenshots
+## :camera: Screenshots
 
 ![screen print](./img/table.png)
 ![screen print](./img/mobile.png)
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Ionic/angular v5.0.0](https://ionicframework.com/)
-* [Ionic v5.0.0](https://ionicframework.com/)
-* [Angular v8.2.14](https://angular.io/)
+* [Ionic/angular v5](https://ionicframework.com/)
+* [Ionic v5](https://ionicframework.com/)
+* [Angular v10](https://angular.io/)
 
-## Setup
+## :floppy_disk: Setup
 
 * Load dependencies using `npm i`
 * To start the server on _localhost://8100_ type: `ionic serve`
 
-## Code Examples
+## :computer: Code Examples
 
 * `bulkDelete()` method uses checkbox column result to remove rows checked
 
@@ -46,7 +49,7 @@
     const preDelete = Object.keys(this.edit);
     console.log('preDelete', preDelete) // example returns ["0", "1", "2"] - array of strings
     const deleteList = preDelete.filter(index => this.edit[index]).map(key => +key); // [0, 1, 2]
-    while (deleteList.length) { // as long as deleteList is > 0 
+    while (deleteList.length) { // as long as deleteList is > 0
       this.data.splice(deleteList.pop(), 1) // splice each row[item], pop deleteList down each time
     }
     this.toggleBulkEdit(); // boolean switched to hide bulkEdit ion-button once complete
@@ -54,21 +57,21 @@
 
 ```
 
-## Features
+## :cool: Features
 
 * Sort function uses the [localeCompare()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) method to return a number indicating if a reference string comes before or after or is the same as the given string in sort order.
 * `ion-select-option` used to provide drop-down rows per page options. Couldn't work out how to have a default selected value, e.g. 10, currently defaults to the full list until a rows per page option is chosen
 
-## Status & To-do list
+## :clipboard: Status & To-do list
 
-* Status: working.
-* To-do: add commenting and functionality
+* Status: working
+* To-do: nothing
 
-## Inspiration
+## :clap: Inspiration
 
 * [Simon Grimm: Youtube video: Building a Responsive Data Table with Ionic Grid](https://www.youtube.com/watch?v=5xQlIYHgesg&t=5s).
 * [Simon Grimms great Ionic site: Devdactic](https://devdactic.com/)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
