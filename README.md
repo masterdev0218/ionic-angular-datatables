@@ -36,7 +36,7 @@
 
 * [Ionic/angular v5](https://ionicframework.com/)
 * [Ionic v5](https://ionicframework.com/)
-* [Angular v11](https://angular.io/)
+* [Angular v12](https://angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -70,7 +70,7 @@
 
 ## :clipboard: Status & To-do list
 
-* Status: working
+* Status: Working. Updated may 2021
 * To-do: nothing
 
 ## :clap: Inspiration
