@@ -26,6 +26,7 @@
 ## :books: General info
 
 * App gets data from a [random user details API](https://randomuser.me/) and displays it in a responsive table that, upon resizing, reduces the number of columns from 6 (PC screen) to 4 (mobile screen)
+* Updated to latest Ionic, Angular etc. note: `tsconfig.json` compiler options updated to include `"skipLibCheck": true`
 
 ## :camera: Screenshots
 
@@ -36,7 +37,7 @@
 
 * [Ionic/angular v5](https://ionicframework.com/)
 * [Ionic v5](https://ionicframework.com/)
-* [Angular v12](https://angular.io/)
+* [Angular v13](https://angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -70,17 +71,18 @@
 
 ## :clipboard: Status & To-do list
 
-* Status: Working. Updated may 2021
+* Status: Working.
 * To-do: nothing
 
 ## :clap: Inspiration
 
 * [Simon Grimm: Youtube video: Building a Responsive Data Table with Ionic Grid](https://www.youtube.com/watch?v=5xQlIYHgesg&t=5s).
 * [Simon Grimms great Ionic site: Devdactic](https://devdactic.com/)
+* [Stackoverflow: Error TS2344: Type 'T[K]' does not satisfy the constraint](https://stackoverflow.com/questions/61735762/error-ts2344-type-tk-does-not-satisfy-the-constraint)
 
 ## :file_folder: License
 
-* This project is licensed under the terms of the MIT license.
+* N/A
 
 ## :envelope: Contact
 
