@@ -1,6 +1,6 @@
 # :zap: Ionic Angular Datatables
 
-* App to display a responsive table of data from an API, using the [Ionic 5 framework](https://ionicframework.com/docs) with Angular
+* App to display a responsive table of data from an API, using the [Ionic framework](https://ionicframework.com/docs) with Angular
 * Code from [Simon Grimm](https://www.youtube.com/channel/UCZZPgUIorPao48a1tBYSDgg) - see [:clap: Inspiration](#clap-inspiration) below
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
@@ -21,6 +21,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -35,9 +36,9 @@
 
 ## :signal_strength: Technologies
 
-* [Ionic/angular v5](https://ionicframework.com/)
+* [Ionic/angular v6](https://ionicframework.com/)
 * [Ionic v5](https://ionicframework.com/)
-* [Angular v13](https://angular.io/)
+* [Angular v14](https://angular.io/)
 
 ## :floppy_disk: Setup
 
