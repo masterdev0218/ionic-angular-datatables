@@ -38,7 +38,7 @@
 
 * [Ionic/angular v6](https://ionicframework.com/)
 * [Ionic v5](https://ionicframework.com/)
-* [Angular v14](https://angular.io/)
+* [Angular v15](https://angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -72,8 +72,8 @@
 
 ## :clipboard: Status & To-do list
 
-* Status: Working.
-* To-do: nothing
+* Status: Working
+* To-do: Nothing
 
 ## :clap: Inspiration
 
